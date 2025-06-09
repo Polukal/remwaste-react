@@ -1,4 +1,3 @@
-Here's the corrected and re-formatted content in Markdown:
 
 -----
 
@@ -108,6 +107,3 @@ skip-selector/
 MIT © 2025 — [Your Name]
 
 Feel free to reuse the code and adapt it to your own skip-hire wizard, product picker, or any other selector workflow\!
-
-```
-```# remwaste-react
