@@ -11,7 +11,6 @@ A tiny, modern React project that demonstrates how to fetch live skip-hire data,
 
 | Feature           | What it does                                  |
 | :---------------- | :-------------------------------------------- |
-| **Live API** | Pulls skips via `GET /api/skips/by-location`  |
 | **Responsive cards** | 1→2→3-column grid, hover lift, gradient overlay |
 | **shadcn/ui** | Uses ready-made `<Card>`, `<Button>`, `<Badge>` primitives |
 | **Footer summary** | Shows size, hire period & price of the selected skip |
