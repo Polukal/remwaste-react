@@ -1,0 +1,91 @@
+.wrapper { max-width: 960px; margin: 0 auto; padding: 2rem 1rem; padding-bottom: 7rem; }
+.h1      { font-size: clamp(1.6rem, 2.5vw, 2rem); margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; color: #fff; }
+.h5      { font-size: 1rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; font-weight: 500; color: #999;}
+.footer  { display: flex; gap: 1rem; justify-content: space-around; margin-top: 2rem;}
+.primary { background:rgb(234 179 8); color:#2A2A2A; padding:.75rem 1.5rem; border-radius:.5rem; font-weight: 700; }
+.secondary{background:transparent;border:2px solid #999;padding:.75rem 1.5rem;border-radius:.5rem;}
+.primary:disabled{opacity:.5;cursor:not-allowed;}
+.center  { text-align:center; padding:3rem 0; }
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #1C1C1C;
+
+    border-top: 1px solid #2A2A2A;
+
+    padding: 1rem;
+
+    z-index: 50;
+
+    animation: slideUp 0.3s ease-out forwards;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0);   }
+}
+
+
+.footer   { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; }
+
+.summary  { display:flex; flex-wrap:wrap; gap:.5rem; font-size:.9rem; }
+.summarySize   { font-weight:600; }
+.summaryPeriod { color:#aaa; }
+.summaryPrice  { color:#f3e00c; font-weight:700; font-size:2rem ; }
+
+.actions  { margin-left:auto; display:flex; gap:.5rem; }
+
+.info{
+  margin: 0;
+  color: #999;
+  font-size: .8rem;
+}
+
+.group{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price_actions{
+  width: 100%;
+  display: flex;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem;
+  }
+
+  .info { font-size: 0.7rem; line-height: 1.25; }
+
+
+  .price_actions {
+    flex-direction: column;
+    align-items: stretch;    
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .summary        { font-size: 0.8rem; }
+  .summaryPeriod  { font-size: 0.75rem; }
+  .summaryPrice   { font-size: 1.35rem; }   
+
+  .primary,
+  .secondary {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+}
