@@ -69,11 +69,10 @@ skip-selector/
 ├─ src/
 │  ├─ assets/skip-placeholder.jpg
 │  ├─ components/
-│  │  └─ SkipSelection/
-│  │      ├─ SkipSelectionPage.jsx
-│  │      ├─ SkipGrid.jsx
-│  │      ├─ SkipCard.jsx
-│  │      └─ BottomBanner.jsx
+│  │    ├─ SkipSelectionPage.jsx
+│  │    ├─ SkipGrid.jsx
+│  │    ├─ SkipCard.jsx
+│  │    └─ BottomBanner.jsx
 │  ├─ App.jsx
 │  ├─ main.jsx
 │  └─ index.css       # Tailwind base
